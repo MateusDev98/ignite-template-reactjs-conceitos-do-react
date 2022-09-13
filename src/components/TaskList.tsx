@@ -41,7 +41,7 @@ export function TaskList() {
   }
 
   function handleToggleTaskCompletion(id: number) {
-    return setTasks(changePropFromTask(tasks, id));
+    setTasks(changePropFromTask(tasks, id));
   }
 
   function handleRemoveTask(id: number) {
